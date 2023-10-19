@@ -1,0 +1,15 @@
+- name: Astro Deploy
+  # You may pin to the exact commit or the version.
+  # uses: withastro/action@e3193ac80e18917ceaeb9f2d47019ad3b2c0416a
+  uses: withastro/action@v0.3.2
+  with:
+    # Path of the directory containing your site
+    path: # optional, default is .
+    # The node version to use
+    node-version: # optional, default is 16
+    # If not automatically detectable, you may specify your preferred package manager
+    package-manager: # optional, default is 
+    # If package-manager is pnpm, use this specific version. Defaults to latest
+    pnpm-version: # optional, default is 7.x.x
+    # If the dependency file is located inside the folder specified by path
+    resolve-dep-from-path: # optional, default is true
